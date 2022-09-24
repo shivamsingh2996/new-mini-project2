@@ -1,0 +1,252 @@
+.index{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('pexels-cottonbro-4752861.jpg');
+    color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+    
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 11px;
+    top: -12px
+}
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 62%;
+    margin: 30px auto;
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 3px;
+    top: 14px;
+
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover{
+   color: grey;
+}
+.left img{
+    width: 87px;
+    filter: invert(100%);
+    margin-left: 26px;
+    
+}
+.left div{
+    line-height: 15px;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rgb(27, 25, 25);
+}
+.container{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin: 31px auto;
+    padding: 50px;
+    border-radius: 28px;
+    width: 45%;
+    height: 66%;
+
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 504px;
+    padding:  2px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 21px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 508px;
+}
+.container button a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-family: 'Baloo Bhai 2'
+}
+.quote{
+    width: 393px;
+    height: 315px;
+    filter: invert(1);
+}
+div h1{
+    font-size: 60px;
+    margin-top: 160px;
+    margin-left: 152px;
+}
+.h2{
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 284px;
+    width: 400px;
+    margin-left: 64px;
+
+}
+.login{
+    padding: 15px 38px;
+    margin-left: 154px;
+    margin-top: 53px;
+    background-color: red;
+    border-radius: 17px;
+    font-family: 'Baloo Bhai 2';
+    border:1px solid white;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.login:hover{
+    background-color: rgb(206, 8, 8);
+    border-radius: 25px;
+}
+.class{
+    font-size: 59px;
+    margin-top: 330px;
+    margin-left: 42px;
+}
+.classes img{
+    width: 426px;
+    height: 339px;
+    margin-left: 76px;
+    border-radius: 56px;
+    border: 2px solid white;
+}
+.classes{
+    display: grid;
+    grid-template-columns: repeat(2,788px);
+    grid-template-rows: repeat(2,478px);
+    font-size: 62px;
+    margin-top: 71px;
+    background: url("./pexels-leon-ardho-1552252.jpg");
+}
+.air{
+    margin-top: -593px;
+    margin-left: 179px;
+    width: 15%;
+    font-family: 'Baloo Bhai 2';
+    font-size: 43px;
+}
+.lifting{
+    margin-top: -75px;
+    margin-left: 1004px;
+    width: 12%;
+    font-family: 'Baloo Bhai 2';
+    font-size: 43px;
+
+}
+.cardio{
+    margin-top: 402px;
+    margin-left: 197px;
+    width: 10%; 
+    font-family: 'Baloo Bhai 2';
+    font-size: 43px;
+}
+.press{
+    margin-top: -75px;
+    margin-left: 963px;
+    width: 18%;
+    font-family: 'Baloo Bhai 2';
+    font-size: 43px;
+}
+.body{
+    background-color: #0c0d0f;
+}
+.details{
+    font-size: 47px;
+    color: white;
+    width: 436px;
+    margin-top: 120px;
+    margin-left: 447px;
+    font-family:'Baloo Bhai 2' ;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 65px;background-color: #010b0a;
+    color: white;
+    margin-top: 65px;
+
+}
+.copyright{
+   
+    width: 44%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.icons{ 
+    width: 12%;
+    font-size: 41px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 55px;
+    margin-top: 10px;
+}
+.icons a{
+    color: white;
+}
+.about{
+    background-color: #0c0d0f;
+}
+div p{
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 33px;
+    margin-left: 150px;
+    border: 2px solid white;
+    padding: 60px 45px;
+    margin-top: 12px;border-radius: 60px;
+    font-family:'Baloo Bhai 2' ;
+}
